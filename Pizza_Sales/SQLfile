@@ -1,0 +1,70 @@
+----Created Stored Procedure----
+create procedure Pizza_Sales_Analysis
+as
+begin
+Select * from pizza_sales
+----To get to Total_revenue-----
+Select sum ( total_price) as Total_Revenue from Pizza_sales
+----Avg_Order_Value---
+Select sum ( total_price) as Total_Revenue from Pizza_sales
+---Total_pizzas_sold---
+select sum(quantity) as Total_Pizzas_sold
+from pizza_sales
+----Total_orders---
+select count(distinct order_id)as Total_Orders
+from pizza_sales
+---Avg_pizzas_Per_Order------
+select CAST(CAST(sum(quantity) as decimal(10,2)) / 
+CAST(COUNT(distinct order_id)as decimal(10,2)) as decimal (10,2)) as Avg_pizza_Per_Order
+from pizza_sales
+---The problem statements bbythe client--------
+
+---Daily Trend for Total Orders-----
+select DATENAME(DW,order_date) as order_day,count(distinct order_id) as daily_orders
+from pizza_sales
+group by DATENAME(DW,order_date)
+---Hourly sales-----
+select DATEPART(Hour,order_time) as Order_hours,count(distinct order_id) as Total_orders
+from pizza_sales
+group by DATEPART(Hour,order_time)
+order by DATEPART(Hour,order_time)
+---% of Pizza sales by category--
+---Used wndow function Round() and Over ()
+SELECT 
+    pizza_category,
+    ROUND(SUM(total_price) * 100.0 / SUM(SUM(total_price)) OVER (), 2) AS category_sales_percent
+FROM pizza_sales
+GROUP BY pizza_category
+order by category_sales_percent
+---% of sales by orders --
+SELECT 
+    pizza_size,
+    ROUND(SUM(total_price) * 100.0 / SUM(SUM(total_price)) OVER (), 2) AS size_sales_percentage
+FROM pizza_sales
+where datepart(quarter, order_date) = 1 --1st Quarter--
+GROUP BY pizza_size
+order by size_sales_percentage desc
+---Total Pizzas Sold by Category---
+select
+pizza_category,
+sum(quantity) as Total_pizza_sold_cate
+from pizza_sales
+group by pizza_category
+order by Total_pizza_sold_cate
+----Top 5 Best Selling Pizza type--
+select top 5 pizza_name,
+sum(quantity) as Total_pizzas_sold_name
+from pizza_sales
+group by pizza_name
+order by Total_pizzas_sold_name desc
+----Bottom 5 Best Selling Pizza type--
+select top 5 pizza_name,
+sum(quantity) as Total_pizzas_sold_name
+from pizza_sales
+group by pizza_name
+order by Total_pizzas_sold_name
+End;
+
+
+---Tot run the Procedure --
+exec Pizza_Sales_Analysis
