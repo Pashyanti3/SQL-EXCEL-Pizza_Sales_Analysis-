@@ -1,0 +1,93 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2" pages="2">
+  <diagram id="NR1oumauK1f2XEtASd3-" name="Data Source and plan">
+    <mxGraphModel dx="872" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_v6-UHts1-aK06CP5KhH-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(102, 0, 51);&quot;&gt;SOURCE:&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="106" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ENN5K2cH-2dpGkqjQLZz-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="84" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ENN5K2cH-2dpGkqjQLZz-4" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#660033&quot;&gt;&lt;b&gt;Design:&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="326" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ENN5K2cH-2dpGkqjQLZz-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.excel_services;" vertex="1" parent="1">
+          <mxGeometry x="484" y="326" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ENN5K2cH-2dpGkqjQLZz-7" value="&lt;font color=&quot;#660033&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ETL Process(Cleaning and modelling ):&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="216" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ENN5K2cH-2dpGkqjQLZz-8" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.excel_services;" vertex="1" parent="1">
+          <mxGeometry x="484" y="216" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ENN5K2cH-2dpGkqjQLZz-15" value="&lt;font style=&quot;font-size: 17px; color: light-dark(rgb(155, 65, 65), rgb(237, 237, 237));&quot;&gt;&lt;b&gt;Simple Project EXCEL DashBoard:&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="380" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Dash Board Layout" id="FJcrQLwnC5Ji9eGRB0D7">
+    <mxGraphModel dx="872" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="al9iDce8vv61fdCMiNaw-1" value="LOGO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="670" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-3" value="OBSERVATION on TRENDS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="120" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-4" value="OBSERVATIONS on SALES %" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="270" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-5" value="OBSERVATION on TOP and BOTTOM SALES by PIZZA TYPE" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-7" value="Daily Trends" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-8" value="Montly Trends" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-9" value="Bar Charts to show the Top 5 selling pizza type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-10" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Bar Charts to show the Bottom 5 selling pizza type&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="420" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-11" value="Time Line Slicer&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-12" value="Pie Chatrs for % of sales by category" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-13" value="Pie Charts for % of sales by Pizza Size" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="270" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-14" value="Funnel chart to show % sales vy pizza size" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-15" value="KPI 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-16" value="KPI 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-18" value="KPI 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-19" value="KPI 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="al9iDce8vv61fdCMiNaw-20" value="KPI 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
